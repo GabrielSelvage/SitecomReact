@@ -12,7 +12,8 @@ const useStyles = makeStyles((theme)=>({
     },
     text: {
         marginLeft: '160px',
-        marginTop: '-300px'
+        marginTop: '-450px',
+        marginRight: '770px'
     }
 }));
 
@@ -22,9 +23,31 @@ function Banner() {
             <div>
             <div style={{backgroundImage: `url(${banner})`}} className= {classes.root}></div>
                     <div className= {classes.text}>
-                        <h1 style= {{color: '#d9d0c0', fontSize: '40px'}}>Advocacia e Consultoria</h1>
-                        <p style= {{color: '#ffffff'}}>Oferecemos assessoria e consultoria jurídica especializada</p>
-                        <Button variant="contained" style= {{color: '#ffffff', backgroundColor: '#a26e4b'}} disableElevation>Entre em Contato</Button>
+                        <h1 
+                        style= {{color: '#d9d0c0', 
+                        fontSize: '60px', 
+                        fontFamily: "SOURCE SANS PRO BLACK",
+                        lineHeight: '50px',
+                        }}
+                        >Advocacia & Consultoria</h1>
+                        <p style= {{color: '#ffffff', 
+                        fontFamily: "SOURCE SANS PRO LIGHT",
+                        fontSize: '20px',
+                        marginTop: '-20px'
+                        }}
+                        >Oferecemos assessoria e consultoria jurídica especializada</p>
+                        <Button variant="contained" 
+                        style= {{color: '#ffffff', 
+                        backgroundColor: '#a26e4b', 
+                        fontFamily: "SOURCE SANS PRO BOLD", 
+                        fontSize: '10px', 
+                        paddingLeft: '30px', 
+                        paddingRight: '30px',
+                        paddingTop: '10px',
+                        paddingBottom: '10px',
+                        borderRadius: '0px',
+                        }} 
+                        disableElevation>Entre em Contato</Button>
                     </div>
             </div>
         )

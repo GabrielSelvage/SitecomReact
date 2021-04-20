@@ -26,8 +26,8 @@ const useStyles = makeStyles((theme)=>({
   TextBar: {
     fontSize: '10px',
     color: '#1d3537',
-    paddingRight: theme.spacing(0.6)
-
+    paddingRight: theme.spacing(0.6),
+    fontFamily: "SOURCE SANS PRO BLACK",
   },
   Grow: {
     flexGrow: 1,

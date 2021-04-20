@@ -31,13 +31,14 @@ const useStyles = makeStyles((theme)=>({
     marginTop: '16px',
     background: '#ffffff',
     animation: 'pulse 1.5s infinite',
-    fontFamily: '',
+    fontFamily: "SOURCE SANS PRO BLACK",
+    borderRadius: '0px',
     '&:hover': {
       backgroundColor: '#1b373a',
       fontSize: '12px',
       marginTop: '16px',
       color: '#d9d0c0',
-
+      borderRadius: '0px',
     }
   }
 }));
